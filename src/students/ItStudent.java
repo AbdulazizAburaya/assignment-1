@@ -10,18 +10,19 @@ package students;
  * @author Abdul
  */
 public class ItStudent extends Student{
-     double project ;
-     double mid ; 
-     double final_ ;
+    private double project ;
+    private double mid ; 
+    private double final_ ;
     
     public ItStudent(String name , int id , String major , double project , double mid , double final_ ) {
-        this.name = name ;
-        this.id = id ; 
-        this.major = major ; 
+        this.setName(name);
+        this.setId(id); 
+        this.setMajor(major); 
         this.project = project ; 
         this.mid = mid ; 
-        this.final_ = final_ ; 
-        this.grade = (project) + (final_) + (mid) ; 
+        this.final_ = final_ ;
+        double d = (project) + (final_) + (mid);
+        this.setGrade(d);  
         
     }
 
