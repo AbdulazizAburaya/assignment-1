@@ -44,11 +44,11 @@ public class Students {
                    f.close();
                    o.close();
                    System.out.println("*******************************************");
-                   System.out.println("The file was created successfully .... ");
+                   System.out.println("The file was created successfully");
                   } catch (FileNotFoundException e) {
-			System.out.println("File not found ... ");
+			System.out.println("File not found");
 		} catch (IOException e) {
-			System.out.println("Error initializing stream ... ");
+			System.out.println("Error initializing stream");
 		}
       }    
     // sort
