@@ -10,18 +10,19 @@ package students;
  * @author Abdul
  */
 public class ArtStudent extends Student {
-      double report ;
-     double mid ; 
-     double final_ ;
+     private  double report ;
+     private  double mid ; 
+     private  double final_ ;
     
      public ArtStudent(String name , int id , String major , double report , double mid , double final_ ) {
-        this.name = name ;
-        this.id = id ; 
-        this.major = major ; 
+         this.setName(name);
+        this.setId(id); 
+        this.setMajor(major); 
         this.report = report ; 
         this.mid = mid ; 
-        this.final_ = final_ ; 
-        this.grade = (report) + (final_) + (mid) ; 
+        this.final_ = final_ ;
+        double d = (report) + (final_) + (mid);
+        this.setGrade(d);  
         
     }
 
