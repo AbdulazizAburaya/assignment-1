@@ -23,12 +23,12 @@ public class Students {
      */
     public static void main(String[] args) {
           Student [] student = {
-          new ItStudent("abdulaziz" , 1 , "math" , 26.5 , 30.5 , 20),
-          new ItStudent("Ahmed" , 2 , "sport" , 23 , 20.5 , 18.5),
-          new ItStudent("Mahmood" , 3 , "IT-computer science" , 19 , 30 , 31),
-          new ArtStudent("Ibrahim" , 4 , "sport" , 20, 25 , 30),
-          new ArtStudent("Hassan" , 5 , "IT-Software development" , 17 , 16 , 22),
-          new ArtStudent("youssef" , 6 , "Sciences" , 33 , 27, 19)
+          new ItStudent("abdulaziz" , 1 , "Software development" , 26.5 , 30.5 , 20),
+          new ItStudent("Ahmed" , 2 , "Computer science" , 23 , 20.5 , 18.5),
+          new ItStudent("Mahmood" , 3 , "IT" , 19 , 30 , 31),
+          new ArtStudent("Ibrahim" , 4 , "Graphic design" , 20, 25 , 30),
+          new ArtStudent("Hassan" , 5 , "Film making" , 17 , 16 , 22),
+          new ArtStudent("youssef" , 6 , "Fashion design" , 33 , 27, 19)
         };
         sort(student);
         for (Student students : student) {
