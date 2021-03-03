@@ -21,7 +21,7 @@ public class ItStudent extends Student{
         this.project = project ; 
         this.mid = mid ; 
         this.final_ = final_ ;
-        double d = (project) + (final_) + (mid);
+        double d = (project * 0.30 ) + (final_ * 0.40) + (mid * 0.30);
         this.setGrade(d);  
         
     }
