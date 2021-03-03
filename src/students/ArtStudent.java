@@ -21,7 +21,7 @@ public class ArtStudent extends Student {
         this.report = report ; 
         this.mid = mid ; 
         this.final_ = final_ ;
-        double d = (report) + (final_) + (mid);
+        double d = (report * 0.10) + (final_ * 0.50) + (mid *0.40 );
         this.setGrade(d);  
         
     }
