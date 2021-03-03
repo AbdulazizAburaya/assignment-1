@@ -12,10 +12,10 @@ import java.io.Serializable;
  * @author Abdul
  */
 public abstract class Student implements Comparable<Student>  , Serializable{
-    protected int id ; 
-    protected String name ;
-    protected String major ;
-    protected double grade ; 
+     int id ; 
+     String name ;
+     String major ;
+     double grade ; 
 
     public int getId() {
         return id;
