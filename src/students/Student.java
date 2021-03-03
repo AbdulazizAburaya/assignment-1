@@ -12,10 +12,10 @@ import java.io.Serializable;
  * @author Abdul
  */
 public abstract class Student implements Comparable<Student>  , Serializable{
-     int id ; 
-     String name ;
-     String major ;
-     double grade ; 
+    private int id ; 
+    private String name ;
+    private String major ;
+    private double grade ; 
 
     public int getId() {
         return id;
@@ -32,7 +32,25 @@ public abstract class Student implements Comparable<Student>  , Serializable{
     public double getGrade() {
         return grade;
     }
+
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setGrade(double grade) {
+        this.grade = grade;
+    }
     
+      
     @Override
     public String toString() {
         return  "{ name : " + name + ", id : " + id + ", major : " + major + " , grade : " + grade + " }";
