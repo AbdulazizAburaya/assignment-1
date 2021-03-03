@@ -10,9 +10,9 @@ package students;
  * @author Abdul
  */
 public class ArtStudent extends Student {
-     protected double report ;
-    protected double mid ; 
-    protected double final_ ;
+      double report ;
+     double mid ; 
+     double final_ ;
     
      public ArtStudent(String name , int id , String major , double report , double mid , double final_ ) {
         this.name = name ;
