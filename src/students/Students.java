@@ -23,12 +23,12 @@ public class Students {
      */
     public static void main(String[] args) {
           Student [] student = {
-          new ItStudent("Ali" , 101 , "IT-Computer systems" , 13.5 , 24 , 29),
-          new ItStudent("Mohammed" , 102 , "Sciences" , 22 , 26 , 33),
-          new ItStudent("Mahmood" , 103 , "IT-computer science" , 28 , 30 , 37.5),
-          new ArtStudent ("Abdallah" , 104 , "sport" , 6 , 29 , 38.5),
-          new ArtStudent ("Essam" , 105 , "IT-Software development" , 9 , 37 , 42),
-          new ArtStudent ("Ahmed" , 106 , "Sciences" , 9 , 33.5 , 42)
+          new ItStudent("abdulaziz" , 1 , "math" , 26.5 , 30.5 , 20),
+          new ItStudent("Ahmed" , 2 , "sport" , 23 , 20.5 , 18.5),
+          new ItStudent("Mahmood" , 3 , "IT-computer science" , 19 , 30 , 31),
+          new ArtStudent("Ibrahim" , 4 , "sport" , 20, 25 , 30),
+          new ArtStudent("Hassan" , 5 , "IT-Software development" , 17 , 16 , 22),
+          new ArtStudent("youssef" , 6 , "Sciences" , 33 , 27, 19)
         };
         sort(student);
         for (Student students : student) {
@@ -43,7 +43,7 @@ public class Students {
                    o.writeObject(student);
                    f.close();
                    o.close();
-                   System.out.println("---------------------------------------");
+                   System.out.println("*******************************************");
                    System.out.println("The file was created successfully .... ");
                   } catch (FileNotFoundException e) {
 			System.out.println("File not found ... ");
